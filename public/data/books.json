@@ -29,6 +29,134 @@
     "author": "Gerald Ford",
     "description": "Lorem ipsum / or your text", -- own description
     "category": "Javascript",
-    "price": 300
+    "price": 189
+  },
+  {
+    "id": 5,
+    "title": "Responsive design with Bootstrap - a second introduction",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "UX",
+    "price": 238
+  },
+  {
+    "id": 6,
+    "title": "How responsive design matters",
+    "author": "Defald Gror",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "UX",
+    "price": 263
+  },
+  {
+    "id": 7,
+    "title": "Bootstrap - complete documentation",
+    "author": "Richard Klooney",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "UX",
+    "price": 134
+  },
+  {
+    "id": 8,
+    "title": "Responsive design for beginners",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "UX",
+    "price": 286
+  },
+  {
+    "id": 9,
+    "title": "HTML 101",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "HTML",
+    "price": 123
+  },
+  {
+    "id": 10,
+    "title": "HTML for beginners",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "HTML",
+    "price": 176
+  },
+  {
+    "id": 11,
+    "title": "HTML - a complete reference and guide",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "HTML",
+    "price": 293
+  },
+  {
+    "id": 12,
+    "title": "HTML - an in-depth course",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "HTML",
+    "price": 164
+  },
+  {
+    "id": 13,
+    "title": "CSS - a second introduction",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "CSS",
+    "price": 253
+  },
+  {
+    "id": 14,
+    "title": "CSS 101 - an introduction for new developers",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "CSS",
+    "price": 148
+  },
+  {
+    "id": 15,
+    "title": "SASS and other CSS extension languages",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "CSS",
+    "price": 290
+  },
+  {
+    "id": 16,
+    "title": "JavaScript - a second introduction",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "Javascript",
+    "price": 230
+  },
+  {
+    "id": 17,
+    "title": "JavaScript - a complete reference",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "Javascript",
+    "price": 450
+  },
+  {
+    "id": 18,
+    "title": "JavaScript - a guide to NodeJS",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "Javascript",
+    "price": 320
+  },
+  {
+    "id": 19,
+    "title": "New Javascript frameworks and their uses",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "Javascript",
+    "price": 290
+  },
+  {
+    "id": 20,
+    "title": "JavaScript for new developers",
+    "author": "Ferald Gord",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "category": "Javascript",
+    "price": 230
   }
 ]
