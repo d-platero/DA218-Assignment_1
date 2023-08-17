@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Responsive design with Bootstrap",
     "author": "James Buchanan",
-    "description": "Lorem ipsum / or your text", -- own description
+    "description": "Lorem ipsum / or your text", 
     "category": "UX",
     "price": 10
   },
@@ -11,13 +11,13 @@
     "id": 2,
     "title": "HTML - an introduction",
     "author": "John Adams",
-    "description": "Lorem ipsum / or your text", -- own description
+    "description": "Lorem ipsum / or your text", 
     "category": "HTML",
     "price": 100
   },
   {
     "id": 3,
-    "title": "CSS - an introduction", -- own description
+    "title": "CSS - an introduction", 
     "author": "Ulysses Grant",
     "description": "Lorem ipsum / or your text",
     "category": "CSS",
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "JavaScript - an introduction",
     "author": "Gerald Ford",
-    "description": "Lorem ipsum / or your text", -- own description
+    "description": "Lorem ipsum / or your text", 
     "category": "Javascript",
     "price": 189
   },
