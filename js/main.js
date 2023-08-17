@@ -14,12 +14,18 @@ async function start() {
 
 function startPage() {
   document.querySelector(".mainView").innerHTML = `
-  <p class=HomeTitle text-center text-primary>test!</p>`
+  <p class="HomeTitle text-center">Home page</p>
+  <p>Welcome! This is the home page for the book store. Use the navigation bar above to access what you want.</p>`;
+  document.querySelector(".bookView").innerHTML = ``;
 }
 
 function viewBooks() {
-  let hasRun = false;
-
+  document.querySelector(".bookView").innerHTML = `
+  <p class = "BookViewTitle text-center">Book page</p>
+  <p></p>`
+  document.querySelector(".mainView").innerHTML = ``;
+  
+  document.querySelector(".bookView").innerHTML += ``
 }
 
 start();
