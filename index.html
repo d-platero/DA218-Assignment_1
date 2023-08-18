@@ -6,6 +6,8 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script type="module" src="./js/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookstore</title>
   </head>
@@ -17,10 +19,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="Home nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" id="Home" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="Books nav-link" href="#">Books</a>
+              <a class="nav-link" id="Books" href="#">Books</a>
             </li>
             <li class="nav-item dropdown">  <!--Set this list item as shopping cart later, right aligned-->
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,11 +42,8 @@
 
     <main>
     <div class="mainView"></div>
-    <div class="bookView"></div>
+    <div class="bookView" align="center"></div>
     </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script type="module" src="./js/main.js"></script>
   </body>
 
 

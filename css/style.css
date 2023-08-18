@@ -1,5 +1,18 @@
-.HomeTitle {
+.homeTitle {
   padding-top: 50px;
   font-size: 30px;
   position: relative;
+}
+
+.bookViewTitle {
+  font-size: 30px;
+  position: relative;
+}
+
+.bookView {
+  padding-top: 55px;
+}
+
+span {
+  font-weight: 900
 }
