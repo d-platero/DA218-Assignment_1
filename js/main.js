@@ -6,10 +6,10 @@ let books,
 async function start() {
   books = await getJSON('./public/data/books.json')
   console.log(books)
-  startPage()
   if (seeBooks) {
     viewBooks() 
   }
+  startPage()
 }
 
 function startPage() {
