@@ -33,16 +33,32 @@ function viewBooks() {
   <p class = "bookViewTitle text-center">Book page</p>`
   document.querySelector(".mainView").innerHTML = ``;
   
-  document.querySelector(".bookView").innerHTML += books.map(({ title, author, category, price }) => `
+  document.querySelector(".bookView").innerHTML += books.map(({ title, author, category, price, description }) => `
   <div class="bookItem card mt-3 w-25" align="left">
   <p><span>Title:</span> ${title}</p>
   <p><span>Author:</span> ${author}</p>
   <p><span>Category:</span> ${category}</p>
   <p><span>Price:</span> ${price}</p>
   <a class="detailsBtn btn btn-primary>Details</a>
-  <a class="buyBtn btn btn-primary></a>
+  <button class="btn btn-primary" id="detailBtn" type="button" data-bs-toggle="collapse" data-bs-target="#detailedInfo" aria-expanded="false" aria-controls="detailedInfo">
+    Details
+  </button>
+  <div class="collapse" id="detailedInfo">
+    <div class="card card-body">
+      ${description}
+    </div>
+  </div>
   </div>`).join(''); // last two are details and purhcase buttons
 }
+
+document.querySelector("#detailBtn").onclick = function () {
+
+}
+
+/*document.querySelector("#buyBtn").onclick = function () {
+
+}*/
+
 
 document.querySelector("#Books").onclick = function () {
   if (!seeBooks) {
