@@ -25,7 +25,15 @@ function viewBooks() {
   <p></p>`
   document.querySelector(".mainView").innerHTML = ``;
   
-  document.querySelector(".bookView").innerHTML += ``
+  document.querySelector(".bookView").innerHTML += books.map(({ bookTitle, bookAuthor, description, category, price }) => `
+  <div class="bookItem">
+  <p>${bookTitle}</p>
+  <p>${bookAuthor}</p>
+  <p>${description}</p>
+  <p>${category}</p>
+  <p>${price}</p>
+  <button class="detailsBtn btn btn-primary></button
+  <button class="buyBtn btn btn-primary></button>`); // last two are details and purhcase buttons
 }
 
 start();
