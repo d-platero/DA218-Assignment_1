@@ -6,7 +6,8 @@ function showModal(title, author, category, price, description) {
     modalWrap.remove();
   }
 
-   = `<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  modalWrap = document.createElement('div');
+  modalWrap.innerHTML = `<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -22,6 +23,14 @@ function showModal(title, author, category, price, description) {
       </div>
     </div>
   </div>
-</div>`
+</div>`;
+ 
+  document.body.append(modalWrap)
+  var modal = new bootstrap.Modal(modalWrap.querySelector('.modal'));
   
+  modal.show();
+}
+
+function close() {
+  modal.hide();
 }

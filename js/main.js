@@ -39,11 +39,9 @@ function viewBooks() {
   <p><span>Author:</span> ${author}</p>
   <p><span>Category:</span> ${category}</p>
   <p><span>Price:</span> ${price}</p>
-  <a class="detailsBtn btn btn-primary>Details</a>
-  <button class="btn btn-lg" id="detailBtn" onclick="runModal();" type="button" data-bs-toggle="modal" data-bs-target="#detailModal">
+  <button class="btn btn-lg" id="detailBtn" onclick="showModal('${title}','${author}','${category}','${price}','${description}');">
   Details
   </button>
-
   </div>`).join(''); // last two are details and purhcase buttons
 }
 
