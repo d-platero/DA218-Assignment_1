@@ -40,20 +40,21 @@ function viewBooks() {
   <p><span>Category:</span> ${category}</p>
   <p><span>Price:</span> ${price}</p>
   <a class="detailsBtn btn btn-primary>Details</a>
-  <button class="btn btn-primary" id="detailBtn" type="button" data-bs-toggle="collapse" data-bs-target="#detailedInfo" aria-expanded="false" aria-controls="detailedInfo">
-    Details
+  <button class="btn btn-lg" id="detailBtn" onclick="runModal();" type="button" data-bs-toggle="modal" data-bs-target="#detailModal">
+  Details
   </button>
-  <div class="collapse" id="detailedInfo">
-    <div class="card card-body">
-      ${description}
-    </div>
-  </div>
+
   </div>`).join(''); // last two are details and purhcase buttons
 }
 
-document.querySelector("#detailBtn").onclick = function () {
 
-}
+/*   */
+// remember to add images
+
+//   <button class="btn btn-primary" id="buyBtn" type="button" data-bs-toggle 
+// ^ Add buy button to book card after finishing detail modal
+
+//document.querySelector("#detailBtn").onclick = function () {}
 
 /*document.querySelector("#buyBtn").onclick = function () {
 
