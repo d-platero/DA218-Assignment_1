@@ -12,19 +12,22 @@ function addBook(title, price) {
   if (!bookCart.some(elem => elem.title === title)) {
     bookCart.push(book)
   }
-  bookCart.filter((elem) => { return elem.title === title }).number++
+  bookCart.filter((elem) => { return elem.title === title })[0].number++
   
-  total += book.price;
+  total += parseInt(book.price);
 
   // Fix this so total appears at end
-  document.querySelector(".totalPrice").innerHTML = `<div><p>${total}</p></div>`
+  document.querySelector(".totalPrice").innerHTML = `<span style="font-weight: bold">TOTAL: </span><p>${total}</p>`
 
 
+  // add image later when done
   var html = bookCart.map(({ title, price, number }) =>
-    `<p>${title}</p>
-    <p>${price}</p>
-    <p>${number}</p>
-    <p>${(price * number)}</p>`
+    `<tr>
+      <td>${title}</td>
+      <td>${price}</td>
+      <td>${number}</td>
+      <td>${(price * number)}</td>
+     </tr>`
   )
     document.querySelector('.cartItem').innerHTML = html.join('')
 }

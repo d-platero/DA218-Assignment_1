@@ -22,6 +22,10 @@
   position: relative;
 }
 
+.totalPrice {
+  display: inline-block;
+}
+
 span {
   font-weight: 900
 }
