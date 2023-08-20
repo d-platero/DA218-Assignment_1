@@ -1,6 +1,6 @@
 var modalWrap = null;
 
-function showModal(title, author, category, price, description) {
+function showModal(title, author, category, price, description, image) {
 
   if (modalWrap !== null) {
     modalWrap.remove();
@@ -11,7 +11,8 @@ function showModal(title, author, category, price, description) {
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">${title}</h1>
+        <div class ="row"><img class="img-fluid" src="${image}"></img></div>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -19,7 +20,7 @@ function showModal(title, author, category, price, description) {
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" onclick="addToCart('${title}','${price}');">Buy</button>
+        <button type="button" class="btn btn-primary" onclick="addBook('${title}','${price}', '${image}');">Buy</button>
       </div>
     </div>
   </div>

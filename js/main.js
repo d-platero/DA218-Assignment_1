@@ -33,16 +33,17 @@ function viewBooks() {
   <p class = "bookViewTitle text-center">Book page</p>`
   document.querySelector(".mainView").innerHTML = ``;
   
-  document.querySelector(".bookView").innerHTML += books.map(({ title, author, category, price, description }) => `
+  document.querySelector(".bookView").innerHTML += books.map(({ title, author, category, price, description, image }) => `
   <div class="bookItem card mt-3 w-25" align="left">
+  <img class="img-fluid" src="${image}"></img>
   <p><span>Title:</span> ${title}</p>
   <p><span>Author:</span> ${author}</p>
   <p><span>Category:</span> ${category}</p>
   <p><span>Price:</span> ${price}</p>
-  <button class="btn btn-lg" id="detailBtn" onclick="showModal('${title}','${author}','${category}','${price}','${description}');">
+  <button class="btn btn-lg" id="detailBtn" onclick="showModal('${title}','${author}','${category}','${price}','${description}', '${image}');">
   Details
   </button>
-  <button class="btn btn-lg btn-primary" onclick="addBook('${title}','${price}');">
+  <button class="btn btn-lg btn-primary" onclick="addBook('${title}','${price}', '${image}');">
   Buy
   </button>
   </div>`).join(''); // last two are details and purhcase buttons

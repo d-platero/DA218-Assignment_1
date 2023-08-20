@@ -3,11 +3,12 @@ var number = 0
 var total = 0
 
 // Use number to count how many books if its the same book
-function addBook(title, price) {
+function addBook(title, price, image) {
   let book = {
     title: title,
     price: price,
-    number: number
+    number: number,
+    image: image
   }
   if (!bookCart.some(elem => elem.title === title)) {
     bookCart.push(book)
@@ -21,8 +22,9 @@ function addBook(title, price) {
 
 
   // add image later when done
-  var html = bookCart.map(({ title, price, number }) =>
+  var html = bookCart.map(({title, price, number, image}) =>
     `<tr>
+      <td><img class="img-fluid" src="${image}"></img></td>
       <td>${title}</td>
       <td>${price}</td>
       <td>${number}</td>
