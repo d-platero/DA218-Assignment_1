@@ -13,6 +13,15 @@
   padding-top: 55px;
 }
 
+.cart {
+  min-width:300px;
+}
+
+.cartMenu {
+  float: right;
+  position: relative;
+}
+
 span {
   font-weight: 900
 }

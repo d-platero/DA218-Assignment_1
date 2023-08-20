@@ -3,7 +3,7 @@ var number = 0
 var total = 0
 
 // Use number to count how many books if its the same book
-function addBook(title, price, number) {
+function addBook(title, price) {
   let book = {
     title: title,
     price: price,
@@ -16,7 +16,7 @@ function addBook(title, price, number) {
   
   total += book.price;
 
-  document.querySelector(".price").innerHTML = `<div><p>${total}</p></div>`
+  document.querySelector(".totalPrice").innerHTML = `<div><p>${total}</p></div>`
 
 
   var html = bookCart.map(({ title, price, number }) =>

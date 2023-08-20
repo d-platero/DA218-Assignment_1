@@ -42,6 +42,9 @@ function viewBooks() {
   <button class="btn btn-lg" id="detailBtn" onclick="showModal('${title}','${author}','${category}','${price}','${description}');">
   Details
   </button>
+  <button class="btn btn-lg btn-primary" onclick="addBook('${title}','${price}');">
+  Buy
+  </button>
   </div>`).join(''); // last two are details and purhcase buttons
 }
 
