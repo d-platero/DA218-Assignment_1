@@ -15,11 +15,11 @@ function showModal(title, author, category, price, description) {
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <p>Description: ${description}</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-primary" onclick="addToCart('${title}','${price}');">Buy</button>
       </div>
     </div>
   </div>
