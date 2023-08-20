@@ -16,15 +16,15 @@ function addBook(title, price) {
   
   total += book.price;
 
+  // Fix this so total appears at end
   document.querySelector(".totalPrice").innerHTML = `<div><p>${total}</p></div>`
 
 
   var html = bookCart.map(({ title, price, number }) =>
-    `<div class="cartItem">
-    <p>Title: ${title}</p>
-    <p>Price: ${price}</p>
-    <p>Number: ${number}</p>
-    <p>Row sum: ${(price * number)} </p>`
+    `<p>${title}</p>
+    <p>${price}</p>
+    <p>${number}</p>
+    <p>${(price * number)}</p>`
   )
     document.querySelector('.cartItem').innerHTML = html.join('')
 }

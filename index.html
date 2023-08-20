@@ -23,19 +23,28 @@
             <li class="nav-item">
               <a class="nav-link" id="Books" href="#">Books</a>
             </li>
-            <li class="nav-item dropdown">  <!--Set this list item as shopping cart later, right aligned-->
-              <a class="cartMenu nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          </ul>
+        </div>
+      </div>
+            <div class="nav-item dropdown col-3">  <!--Set this list item as shopping cart later, right aligned-->
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Cart
               </a>
               <div class="cart dropdown-menu w-50">
                 <p>Shopping cart</p>
-                <div class="cartItem"></div>
+                <table class="table">
+                    <thead>
+                      <th>Title</th>
+                      <th>Price</th>
+                      <th>Number</th>
+                      <th>Row sum</th>  
+                    </thead>
+                    <tbody class="cartItem"></tbody>
+                  </table>
+                </div>
                 <div class="totalPrice"></div>
               </div>
-            </li>
-          </ul>
-        </div>
-      </div>
+            </div>      
     </nav>
     <div id="app"></div>
 
