@@ -40,10 +40,10 @@ function viewBooks() {
   <p><span>Author:</span> ${author}</p>
   <p><span>Category:</span> ${category}</p>
   <p><span>Price:</span> ${price}</p>
-  <button class="btn btn-lg" id="detailBtn" onclick="showModal('${title}','${author}','${category}','${price}','${description}', '${image}');">
+  <button class="btn btn-lg btn-primary mb-2" id="detailBtn" onclick="showModal('${title}','${author}','${category}','${price}','${description}', '${image}');">
   Details
   </button>
-  <button class="btn btn-lg btn-primary" onclick="addBook('${title}','${price}', '${image}');">
+  <button class="btn btn-lg btn-success" onclick="addBook('${title}','${price}', '${image}');">
   Buy
   </button>
   </div>`).join(''); // last two are details and purhcase buttons
